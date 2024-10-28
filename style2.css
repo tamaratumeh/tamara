@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+
+
+}
+
+.bu1 {
+    position: fixed;
+    top: 30px;
+    left: 35px;
+    height: 50px;
+    width: 100px;
+    background: transparent;
+    color: rgba(0, 255, 255, 0.636);
+    border: 2px inset rgb(211, 200, 211);
+
+    border-radius: 30px;
+    animation: butt 4s infinite;
+    animation: butt2 5s infinite;
+
+}
+
+h3 {
+    position: fixed;
+    top: 45px;
+    right: 700px;
+    font-size: 45px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: unset;
+    background: url(imgs/mmmm.jfif);
+    color: transparent;
+    background-clip: text;
+    animation: h3 13s infinite;
+}
+
+.bu2 {
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    height: 50px;
+    width: 100px;
+    background: transparent;
+    color: rgba(0, 255, 255, 0.604);
+    border: 2px outset rgb(211, 200, 211);
+    border-radius: 30px;
+    animation: butt2 5s infinite;
+
+}
+
+@keyframes butt {
+    0% {
+        top: 60%;
+    }
+
+    50% {
+        top: 65%;
+    }
+
+    100% {
+        top: 60%;
+    }
+
+
+}
+
+@keyframes butt2 {
+    0% {
+        top: 30px;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    100% {
+        top: 30px;
+    }
+
+
+}
+
+@keyframes h3 {
+    0% {
+        right: 700px;
+    }
+
+    25% {
+        right: 650px;
+    }
+
+    75% {
+        right: 750px;
+    }
+
+    90% {
+        right: 700px;
+    }
+
+}
+
+
+h2 {
+    position: fixed;
+    top: 45%;
+    right: 500px;
+    font-size: 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    border-right-width: 5px;
+    width: 480px;
+    color: rgba(220, 220, 187, 0.662);
+    animation: butt 4s infinite;
+
+}
+
+@keyframes buble {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0, -700px); opacity: 0;
+    }
+
+
+}
+
+.bubble {
+
+    position: fixed;
+    bottom: -30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.img {
+    width: 40px;
+    margin: 10px;
+    animation: buble 5s infinite ;
+}
+.img1 {
+    animation: buble 5s infinite linear;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .img2 {
+    animation: buble 6s infinite linear;
+    width: 35px;
+    height: 35px;
+  }
+  
+  .img3 {
+    animation: buble 7s infinite linear;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .img4 {
+    animation: buble 4.5s infinite linear;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .img5 {
+    animation: buble 9s infinite linear;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .img6 {
+    animation: buble 6s infinite linear;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .img7 {
+    animation: buble 12s infinite linear;
+    width: 30px;
+    height: 30px;
+  }
+
+  .img8 {
+    animation: buble 14s infinite linear;
+    width: 30px;
+    height: 30px;
+  }

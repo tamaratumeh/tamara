@@ -1,0 +1,222 @@
+body {
+    background-color: rgb(44, 43, 43);
+    /* cursor: url("imgs/mine1.jfif") , auto ; */
+}
+
+header {
+    /* width: 60rem; */
+    height: 8vh;
+    border: 4px solid rgb(23, 20, 20);
+    /* margin: 20px 0px 10px 240px; */
+    padding: 0px 0px;
+    Width: 34rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2d0101;
+    border-radius: 4cqw;
+}
+
+.link {
+    color: rgb(14, 14, 14);
+
+    /* 
+    padding: 10px 99px 40px 89px;
+    margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(85, 81, 81);
+    padding: 0px 30px 20px 0px;
+
+}
+
+h2 {
+    height: 15%;
+    padding: 0px 20px 3px 20px;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bigbos {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.wrapper {
+
+    width: 100%px;
+    height: 300px;
+    background-size: 100% 100%;
+    box-shadow: 5px 5px 5px 3px #2d0101;
+    animation: BgAnimation 18s linear infinite;
+    
+}
+
+@keyframes BgAnimation {
+
+    0% {
+        background-image: url(/imgs/move1.jfif);
+        /* padding: 0px 60px 0px 60px;
+    margin: 0px 60px 0px 60px; */
+    }
+
+    30% {
+        background-image: url(/imgs/move4.jfif);
+    }
+
+    60% {
+        background-image: url(/imgs/move3.jfif);
+    }
+
+    /* 70%{background-image: url(/imgs/move4.jfif)};
+                90%{background-image: url(/imgs/move4.jfif)}; */
+    100% {
+        background-image: url(/imgs/move5.jfif);
+    }
+}
+
+.wrapper2 {
+
+    width: 90%px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #350303;
+    background-size: 100% 100%;
+    box-shadow: 3px 3px 3px 3px #676666;
+    border-radius: 10px;
+
+}
+
+.minebos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    font-size: 2rem;
+    /* justify-content: left; */
+    position: absolute fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -30%);
+    /* height: 15%;
+margin-bottom: 3rem;
+padding-bottom: 3rem;
+text-align: center; */
+}
+
+.right {
+
+    height: 40%px;
+    width: 1%px;
+    object-fit: contain;
+    /* display: block; */
+
+
+}
+
+.minebos2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.disayn2 {
+    height: 60px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 15px;
+
+    position: absolute fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, 12%);
+
+    background-color: rgba(164, 174, 184, 0.621);
+    backdrop-filter: blurring(10%);
+    box-shadow: 0px 0px 10px rgba(245, 245, 245, 0.952);
+    border: 2px solid rgba(255, 255, 255, 0.841);
+}
+
+.disayn {
+
+    display: flex;
+    justify-content: space-around;
+    position: absolute fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -20%);
+}
+
+.wrapper3 {
+    height: 25rem;
+    width: 90%px;
+    background: #070122;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #350303;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+
+button {
+    
+/* position: absolute fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(380%, 150%);
+    font-size: 20px; */
+    
+/* width: 100%; */
+/* height: 100%;
+color: #1d1d1d;
+border-radius: 30px;
+font-weight: 400;
+text-decoration: none;
+transition: 0.5s;
+/* overflow: hidden; */
+backdrop-filter: blur(5px); 
+background-color: #210303;
+color: #79797d;
+/* padding: 15px 0px; */
+font-size: 25px;
+/* border: 2px solid #555; */
+cursor: pointer;
+transition: all 0.3s ease;
+border-radius: 5px;
+letter-spacing: 1px;
+filter: drop-shadow(2px 2px 5px rgb(162, 162, 162));
+/* box-shadow: 2px 2px 5px#838282; */
+}
+
+
+button:hover {
+    background: linear-gradient(45deg, rgb(74, 74, 74), rgb(4, 21, 36));
+color: rgb(195, 192, 192); 
+       
+}
+
+.img1{
+    height: 280px;
+    width: 400px;
+    position: absolute fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-78%, 13%);
+filter: grayscale(0%);
+}
+.img:hover{
+    filter: grayscale(100%);
+}
+
+
+
+.right2 {}
